@@ -1,9 +1,10 @@
 import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
     <div className="App">
-      <h1>This my profile!</h1>
+      <PortfolioContainer />
     </div>
   );
 }
