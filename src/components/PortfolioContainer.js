@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
-import Home from './pages/Home';
 import Bio from './pages/Bio';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 class PortfolioContainer extends Component {
   state = {
-    currentPage: 'Home'
+    currentPage: 'Bio'
   };
 
   handlePageChange = (page) => {
@@ -18,8 +17,6 @@ class PortfolioContainer extends Component {
     switch (this.state.currentPage) {
       case 'Bio':
         return <Bio />;
-      case 'Home':
-        return <Home />;
       case 'Projects':
         return <Projects />;
       case 'Contact':

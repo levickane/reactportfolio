@@ -6,19 +6,10 @@ function NavTabs(props) {
       <li className="nav-item">
         <a
           href="/"
-          onClick={() => props.handlePageChange('Home')}
+          onClick={() => props.handlePageChange('Bio')}
           className="nav-link text-light"
         >
           Levi Kane | Full Stack Developer
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange('Home')}
-          className="nav-link text-light"
-        >
-          Home
         </a>
       </li>
       <li className="nav-item">
