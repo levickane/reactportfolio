@@ -56,12 +56,12 @@ function Bio() {
         At the bottom you'll find my contact info as well as my resume which can
         viewed in a downloadable PDF
       </p>
-      <br />
-      <p>
-        <strong>Proficiency in:</strong> JavaScript | Python | Vue | React |
-        MongoDB/Mongoose | SQL | Sequelize | Git | JQuery | Node | RESTful APIs
-        | Bootstrap | CSS
-      </p>
+      <div>
+        <h3>Profiency In:</h3>
+        <div className="card col-3">
+          <img src="./logos/html5-logo.png" alt="html5 logo" />
+        </div>
+      </div>
     </div>
   );
 }
