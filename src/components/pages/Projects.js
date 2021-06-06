@@ -23,12 +23,17 @@ function Projects() {
             <p>
               <strong>Description:</strong> {project.description}
             </p>
-            <a href={project.link} className="btn btn-primary mx-1 my-1">
+            <a
+              href={project.link}
+              target="_blank"
+              className="btn btn-primary mx-1 my-1"
+            >
               Live Link
             </a>
             {project.githubLink ? (
               <a
                 href={project.githubLink}
+                target="_blank"
                 className="btn btn-primary mx-1 my-1"
               >
                 My Github Repo
