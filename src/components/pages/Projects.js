@@ -25,6 +25,7 @@ function Projects() {
             </p>
             <a
               href={project.link}
+              rel="noreferrer"
               target="_blank"
               className="btn btn-primary mx-1 my-1"
             >
@@ -33,6 +34,7 @@ function Projects() {
             {project.githubLink ? (
               <a
                 href={project.githubLink}
+                rel="noreferrer"
                 target="_blank"
                 className="btn btn-primary mx-1 my-1"
               >

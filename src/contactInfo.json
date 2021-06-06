@@ -1,8 +1,6 @@
-[
-  {
-    "email": "oneleggedlevi09@gmail.com",
-    "phone": "773-558-3112",
-    "githubProfile": "ttps://github.com/levickane",
-    "linkedIn": "https://www.linkedin.com/in/levi-kane-8a94a155/"
-  }
-]
+{
+  "email": "mailto:oneleggedlevi09@gmail.com",
+  "phone": "tel:+1(773)558-3112",
+  "githubProfile": "https://github.com/levickane",
+  "linkedIn": "https://www.linkedin.com/in/levi-kane-8a94a155/"
+}
