@@ -58,9 +58,9 @@ function Bio() {
       </p>
       <br />
       <p>
-        <strong>Proficiency in:</strong> JavaScript | Python | Express | Vue |
-        React | MongoDB/Mongoose | SQL | Sequelize | Git | JQuery | Node |
-        RESTful APIs | Bootstrap | CSS
+        <strong>Proficiency in:</strong> JavaScript | Python | Vue | React |
+        MongoDB/Mongoose | SQL | Sequelize | Git | JQuery | Node | RESTful APIs
+        | Bootstrap | CSS
       </p>
     </div>
   );
