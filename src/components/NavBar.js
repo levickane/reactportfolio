@@ -5,7 +5,7 @@ function NavTabs(props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-primary">
       <div className="container-fluid">
         <a
-          href="#"
+          href="#bio"
           onClick={() => props.handlePageChange('Bio')}
           className="nav-link text-light"
         >
