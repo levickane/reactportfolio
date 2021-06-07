@@ -37,7 +37,8 @@ function Projects() {
             <p className="collapse" id={project.id}>
               {project.description}
             </p>
-            <br />
+          </div>
+          <div className="card-footer">
             <a
               href={project.link}
               rel="noreferrer"

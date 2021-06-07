@@ -2,7 +2,7 @@
 
 ## Description
 
-This appication was built with React. It is used to display all of my coding projects to be compiled nicely in a portfolio. It is structured to easily add and delete projects by simply accessing the projectData.json file.
+This appication was built with React. It is used to display all of my coding projects to be compiled nicely in a portfolio. It is structured to easily add and delete projects by simply accessing the projectData.json file. A live link of the website can be viewed [HERE!](https://levickane.github.io/reactportfolio/)
 ![HomePage](./public/images/portfolioScreenShot.png)
 
 ## Table of Contents
