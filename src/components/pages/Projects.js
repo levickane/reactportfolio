@@ -18,14 +18,19 @@ function Projects() {
           />
           <div className="card-body">
             <p className="card-text">
-              <strong>Technologies used:</strong> {project.technologies}
+              <span style={{ fontSize: '1.5em' }}>Technologies used:</span>{' '}
+              {project.technologies}
             </p>
             <a
               data-bs-toggle="collapse"
               href={`#${project.id}`}
               aria-expanded="false"
               aria-controls={project.id}
-              style={{ textDecoration: 'none', color: 'black' }}
+              style={{
+                textDecoration: 'none',
+                color: 'black',
+                fontSize: '1.5em'
+              }}
             >
               <strong>Toggle Description...</strong>
             </a>

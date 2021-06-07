@@ -56,12 +56,12 @@ function Bio() {
         University's Coding Bootcamp. The web-applications displayed on my
         projects page are all custom built by me, from scratch. On the contact
         page you'll find all of my contact info as well as my resume which can
-        viewed in a downloadable PDF
+        be viewed in a downloadable PDF
       </p>
       <div className="row justify-content-center g-6">
         <h3 style={{ textDecoration: 'underline' }}>Profiency In:</h3>
         {Logos.map((logo) => (
-          <div className="card col-lg-3 col-5 p-2 mx-1 my-1" key={logo.id}>
+          <div className="card col-lg-3 col-5 p-2 mx-2 my-1" key={logo.id}>
             <img src={logo.image} alt={logo.id} key={logo.id} />
           </div>
         ))}
