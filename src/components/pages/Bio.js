@@ -4,14 +4,8 @@ import Logos from '../../logoInfo.json';
 function Bio() {
   return (
     <div className="row">
-      <h1>Bio Page</h1>
-      <img
-        className="col-lg-4 col-md-6 my-2"
-        src="./images/Levi-Kane-Headshot.jpg"
-        alt="levi kane headshot"
-      />
-
-      <p className="col-lg-8 col-md-6">
+      <h1>Levi Kane</h1>
+      <p className="col-lg-10 col-md-6">
         My name is Levi Kane and I'm former World Class Athlete, turned Fitness
         Training Coach, turned Full Stack Developer. In 2012 I was introduced to
         the sport of ParaTriathlon where I would be racing against other
@@ -19,14 +13,19 @@ function Bio() {
         amputee). In the year 2015 I had hit my personal peak with athletics
         getting a Gold medal at National championships, Silver medal at World
         Championships, a Bronze medal at Continental Championships and I became
-        the first (and still the only) single-leg above-knee amputee to ever run
-        a sub 20:00 5k in the entire World.
+        the first single-leg above-knee amputee to ever run a sub 20:00 5k in
+        the entire World. After that, I ran my own fitness training and coaching
+        business for 5 years. Using my education in Kinesiology, paired with my
+        story of inspiration, my business flourished!
       </p>
+      <img
+        className="col-lg-2 col-md-6 my-2"
+        src="./images/Levi-Kane-Headshot.jpg"
+        alt="levi kane headshot"
+      />
       <p>
-        After that, I ran my own fitness training and coaching business for 5
-        years. Using my education in Kinesiology, paired with my story of
-        inspiration, my business flourished! But then sadly, due to Covid-19, my
-        business was brought to a screeching hault. And that's when I thought,{' '}
+        But then sadly, due to Covid-19, my business was brought to a screeching
+        hault. And that's when I thought,{' '}
         <em>"Why don't I learn how to write code??"</em> My favorite clients
         were always developers, so asking them for advice on the matter only
         seemed natural. So after some guidence from seasoned veterans of the
@@ -60,7 +59,7 @@ function Bio() {
       <div className="row justify-content-center g-6">
         <h3>Profiency In:</h3>
         {Logos.map((logo) => (
-          <div className="card col-lg-3 col-5 p-2 mx-1 my-1">
+          <div className="card col-lg-3 col-5 p-2 mx-1 my-1" key={logo.id}>
             <img src={logo.image} alt={logo.id} key={logo.id} />
           </div>
         ))}
