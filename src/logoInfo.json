@@ -2,5 +2,57 @@
   {
     "id": "html5-logo",
     "image": "./logos/html5-logo.png"
+  },
+  {
+    "id": "css3-logo",
+    "image": "./logos/css3-logo.png"
+  },
+  {
+    "id": "javascript-logo",
+    "image": "./logos/javascript-logo.png"
+  },
+  {
+    "id": "jquery-logo",
+    "image": "./logos/jquery-logo.png"
+  },
+  {
+    "id": "nodejs-logo",
+    "image": "./logos/nodejs-logo.png"
+  },
+  {
+    "id": "python-logo",
+    "image": "./logos/python-logo.jpeg"
+  },
+  {
+    "id": "SQL-logo",
+    "image": "./logos/SQL-logo.png"
+  },
+  {
+    "id": "git-logo",
+    "image": "./logos/git-logo.png"
+  },
+  {
+    "id": "restful-api-logo",
+    "image": "./logos/restful-api-logo.png"
+  },
+  {
+    "id": "react-logo-sm",
+    "image": "./logos/react-logo-sm.png"
+  },
+  {
+    "id": "vue-logo",
+    "image": "./logos/vue-logo.png"
+  },
+  {
+    "id": "vuetify-logo",
+    "image": "./logos/vuetify-logo.png"
+  },
+  {
+    "id": "mongo-logo",
+    "image": "./logos/mongo-logo.png"
+  },
+  {
+    "id": "Bootstrap_logo",
+    "image": "./logos/Bootstrap_logo.png"
   }
 ]
