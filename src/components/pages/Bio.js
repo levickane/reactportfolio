@@ -7,16 +7,18 @@ function Bio() {
       <h1>Levi Kane</h1>
       <p className="col-lg-10 col-md-6">
         My name is Levi Kane and I'm former World Class Athlete, turned Fitness
-        Training Coach, turned Full Stack Developer. In 2012 I was introduced to
-        the sport of ParaTriathlon where I would be racing against other
-        athletes with the same level of disability as myself (above-knee
-        amputee). In the year 2015 I had hit my personal peak with athletics
-        getting a Gold medal at National championships, Silver medal at World
-        Championships, a Bronze medal at Continental Championships and I became
-        the first single-leg above-knee amputee to ever run a sub 20:00 5k in
-        the entire World. After that, I ran my own fitness training and coaching
-        business for 5 years. Using my education in Kinesiology, paired with my
-        story of inspiration, my business flourished!
+        Training Coach, turned Full Stack Developer. After losing my leg in a
+        motorcycle accident in 2009, I had finally found my way in my newly
+        amputated life in 2012, when I was introduced to the sport of
+        ParaTriathlon. Here, I would be racing against other athletes with the
+        same level of disability as myself (above-knee amputee). In the year
+        2015 I had hit my personal peak with athletics getting a Gold medal at
+        National championships, Silver medal at World Championships, a Bronze
+        medal at Continental Championships and I became the first single-leg
+        above-knee amputee to ever run a sub 20:00 5k in the entire World. After
+        that, I ran my own fitness training and coaching business for 5 years.
+        Using my education in Kinesiology, paired with my story of inspiration,
+        my business flourished!
       </p>
       <img
         className="col-lg-2 col-md-6 my-2"
@@ -26,7 +28,7 @@ function Bio() {
       <p>
         But then sadly, due to Covid-19, my business was brought to a screeching
         hault. And that's when I thought,{' '}
-        <em>"Why don't I learn how to write code??"</em> My favorite clients
+        <em>"Why don't I learn how to write software??"</em> My favorite clients
         were always developers, so asking them for advice on the matter only
         seemed natural. So after some guidence from seasoned veterans of the
         industry, I spent my Covid-cation immersing myself in the world of
@@ -51,13 +53,13 @@ function Bio() {
       </p>
       <p>
         So that's how I found myself here! A student at Northwestern
-        University's Coding Bootcamp. The web-applications listed below are all
-        custom built by me, from scratch, through the University's curriculum.
-        At the bottom you'll find my contact info as well as my resume which can
+        University's Coding Bootcamp. The web-applications displayed on my
+        projects page are all custom built by me, from scratch. On the contact
+        page you'll find all of my contact info as well as my resume which can
         viewed in a downloadable PDF
       </p>
       <div className="row justify-content-center g-6">
-        <h3>Profiency In:</h3>
+        <h3 style={{ textDecoration: 'underline' }}>Profiency In:</h3>
         {Logos.map((logo) => (
           <div className="card col-lg-3 col-5 p-2 mx-1 my-1" key={logo.id}>
             <img src={logo.image} alt={logo.id} key={logo.id} />

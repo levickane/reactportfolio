@@ -7,36 +7,32 @@ function Projects() {
       <h1>My projects</h1>
       {projectData.map((project) => (
         <div
-          className="card my-2 mx-3 border border-dark col-lg-3 col-md-5"
+          className="card my-2 mx-2 border border-dark col-lg-5 col-md-5"
           key={project.id}
         >
+          <h1 className="card-header">{project.title}</h1>
           <img
             src={project.image}
             className="card-img-top"
             alt={project.title}
           />
           <div className="card-body">
-            <h5 className="card-title">{project.title}</h5>
             <p className="card-text">
               <strong>Technologies used:</strong> {project.technologies}
             </p>
             <a
-              className="btn btn-primary"
-              type="button"
               data-bs-toggle="collapse"
-              href={`#${project.title + 'a'}`}
+              href={`#${project.id}`}
               aria-expanded="false"
-              aria-controls={project.title + 'a'}
+              aria-controls={project.id}
+              style={{ textDecoration: 'none', color: 'black' }}
             >
-              Button with data-bs-target
+              <strong>Toggle Description...</strong>
             </a>
-            <div className="collapse" id={project.title + 'a'}>
-              <div className="card card-body">
-                Some placeholder content for the collapse component. This panel
-                is hidden by default but revealed when the user activates the
-                relevant trigger.
-              </div>
-            </div>
+            <p className="collapse" id={project.id}>
+              {project.description}
+            </p>
+            <br />
             <a
               href={project.link}
               rel="noreferrer"

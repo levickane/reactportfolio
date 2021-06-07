@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <ul class="contactList">
+      <ul>
         <li>
           <a href="mailto:oneleggedlevi09@gmail.com">
             oneleggedlevi09@gmail.com
@@ -25,6 +25,17 @@ function Contact() {
           </a>
         </li>
       </ul>
+      <h2 className="sectionTitle">Resume</h2>
+      <div className="sectionContainer">
+        <a
+          href="./downloadable/RESUME.pdf"
+          download="Levi_Kane_FullStack_Resume"
+          target="_blank"
+        >
+          Click here for a downloadable pdf of my resume
+          <i className="material-icons">description</i>
+        </a>
+      </div>
     </div>
   );
 }
