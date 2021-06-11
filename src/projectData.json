@@ -22,7 +22,7 @@
     "technologies": "Node, Express, Handlebars, MySql/Sequelize, JawsDB, Chartjs, Bootstrap, JQuery, JavaScript",
     "description": "This application was built to track the user's expenses and to display the users running total over time via line Chart. A user can login to their account and see all of their data which is stored in JawsDB via Heroku.",
     "image": "./images/expenseTracker7000.png",
-    "link": "https://levickane.github.io/expensetracker7000/",
+    "link": "https://expense-tracker-7000.herokuapp.com/",
     "githubLink": "https://github.com/levickane/expensetracker7000"
   },
   {
