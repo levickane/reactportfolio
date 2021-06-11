@@ -1,11 +1,11 @@
 import React from 'react';
-import Logos from '../../logoInfo.json';
+import Logos from '../logoInfo.json';
 
 function Bio() {
   return (
     <div className="row">
-      <h1>Levi Kane</h1>
-      <p className="col-lg-10 col-md-6">
+      <h1 className="my-2">Levi Kane</h1>
+      <p className="col-lg-9 col-md-6">
         My name is Levi Kane and I'm former World Class Athlete, turned Fitness
         Training Coach, turned Full Stack Developer. After losing my leg in a
         motorcycle accident in 2009, I had finally found my way in my newly
@@ -21,7 +21,7 @@ function Bio() {
         my business flourished!
       </p>
       <img
-        className="col-lg-2 col-md-6 my-2"
+        className="col-lg-3 col-md-6 my-2 my-auto"
         src="./images/Levi-Kane-Headshot.jpg"
         alt="levi kane headshot"
       />

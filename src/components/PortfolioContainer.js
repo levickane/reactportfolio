@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
-import Bio from './pages/Bio';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import Bio from '../pages/Bio';
+import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
+import Footer from './Footer';
 
 class PortfolioContainer extends Component {
   state = {
@@ -33,7 +34,8 @@ class PortfolioContainer extends Component {
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
-        <div className="container">{this.renderPage()}</div>
+        <div className="container my-4">{this.renderPage()}</div>
+        <Footer />
       </div>
     );
   }

@@ -1,10 +1,10 @@
 import React from 'react';
-import projectData from '../../projectData.json';
+import projectData from '../projectData.json';
 
 function Projects() {
   return (
     <div className="row justify-content-center">
-      <h1>My projects</h1>
+      <h1 className="my-2">My projects</h1>
       {projectData.map((project) => (
         <div
           className="card my-2 mx-2 border border-dark col-lg-5 col-md-5"
