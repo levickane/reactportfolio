@@ -27,6 +27,15 @@
   },
   {
     "id": "four",
+    "title": "Chicago Boating App",
+    "technologies": "Node, Express, MongoDB, Bootstrap, JavaScript",
+    "description": "This application was built to display a 7 day marine weather forecast. Once logged in a user can create an itinerary for the day with the best weather conditions. A user can also save a harbor as their favorite harbor.",
+    "image": "./images/chicagoboatingapp.png",
+    "link": "https://chicagoboatingapp.herokuapp.com/",
+    "githubLink": "https://github.com/markdrecoll/chicagoboatingapp"
+  },
+  {
+    "id": "five",
     "title": "Fitness Tracker",
     "technologies": "JavaScript, JQuery, MongoDB/Mongoose, Express, Chartjs, Bootstrap",
     "description": "This application was built to track the user's exercises over time and displayed on Line & Bar Charts via Chart.js . A user can login to their account and see all data over the last 7 days which is stored in a MongoDB.",
@@ -35,7 +44,7 @@
     "githubLink": "https://github.com/levickane/fitnesstracker"
   },
   {
-    "id": "five",
+    "id": "six",
     "title": "Weather App",
     "technologies": "Fetch API, Bootstrap, JQuery, localStorage",
     "description": "This application was built to display the current Weather for the day as well as a 7 day forcast. The user can type in a location and the weather will be displayed. All previous searches will be saved for quick searching access.",
@@ -44,7 +53,7 @@
     "githubLink": "https://github.com/levickane/weatherApp"
   },
   {
-    "id": "six",
+    "id": "seven",
     "title": "Team Profile Generator",
     "technologies": "Node, Inquire, Jest, JavaScript, Bootstrap",
     "description": "This Node application was built to display a website based on a user's input to the inquire package. It will display the company's team laid out in Bootstrap formatted cards.",
@@ -53,7 +62,7 @@
     "githubLink": "https://github.com/levickane/teamprofilegenerator"
   },
   {
-    "id": "seven",
+    "id": "eight",
     "title": "Hot Restaurant",
     "technologies": "Express, RESTful APIs, Bootstrap, JQuery, JavaScript",
     "description": "This application was built to display all reservations for restaurant. The restaurant can only accept a limited amount of seats at a time. All other reservations will be put on a waitlist. As the seats clear, the waitlist will populate the restaurant.",
@@ -62,7 +71,7 @@
     "githubLink": "https://github.com/levickane/hotrestaurant"
   },
   {
-    "id": "eight",
+    "id": "nine",
     "title": "Tech Blog",
     "technologies": "Node, Express, Handlebars, MySql/Sequelize, JawsDB, Bootstrap, JQuery, JavaScript",
     "description": "This application was built to display all blog posts from all users. A user can login can add blogs as well as comment on other blogs. They can also update and delete their own blog posts. All comments are displayed with the comment author as well as the date that they commented.",
