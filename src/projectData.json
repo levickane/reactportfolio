@@ -8,13 +8,13 @@
     "link": "https://www.newgameplus.live/"
   },
   {
-    "id": "two",
-    "title": "Expense Tracker 5000",
-    "technologies": "Fetch API, JS, JQuery, Materialize, LocalStorage",
-    "description": "This application was built to track the user's expenses and incomes to display the users running total. All data is stored via local storage.",
-    "image": "./images/expenseTrackerLarge.png",
-    "link": "https://levickane.github.io/expensetracker/",
-    "githubLink": "https://github.com/levickane/expensetracker"
+    "id": "four",
+    "title": "Chicago Boating App",
+    "technologies": "Node, Express, MongoDB, Bootstrap, Axios, React-Bootstrap, JavaScript",
+    "description": "This application was built to display a 7 day marine weather forecast. Once logged in a user can create an itinerary for the day with the best weather conditions. A user can also save a harbor as their favorite harbor.",
+    "image": "./images/chicagoboatingapp.png",
+    "link": "https://chicagoboatingapp.herokuapp.com/",
+    "githubLink": "https://github.com/markdrecoll/chicagoboatingapp"
   },
   {
     "id": "three",
@@ -26,13 +26,40 @@
     "githubLink": "https://github.com/levickane/expensetracker7000"
   },
   {
-    "id": "four",
-    "title": "Chicago Boating App",
-    "technologies": "Node, Express, MongoDB, Bootstrap, JavaScript",
-    "description": "This application was built to display a 7 day marine weather forecast. Once logged in a user can create an itinerary for the day with the best weather conditions. A user can also save a harbor as their favorite harbor.",
-    "image": "./images/chicagoboatingapp.png",
-    "link": "https://chicagoboatingapp.herokuapp.com/",
-    "githubLink": "https://github.com/markdrecoll/chicagoboatingapp"
+    "id": "ten",
+    "title": "Google Book Search",
+    "technologies": "MonogDB/Mongoose, Express, React, Node, Bootstrap, Axios, JavaScript",
+    "description": "This application was built to saerch the Google books api for your favorite book or author. You can then save that book to your favorites or delete it from your favorites",
+    "image": "./images/googlebooks.png",
+    "link": "https://levisbooksearch.herokuapp.com",
+    "githubLink": "https://github.com/levickane/googlebooksearch"
+  },
+  {
+    "id": "nine",
+    "title": "Tech Blog",
+    "technologies": "Node, Express, Handlebars, MySql/Sequelize, JawsDB, Bootstrap, JQuery, JavaScript",
+    "description": "This application was built to display all blog posts from all users. A user can login can add blogs as well as comment on other blogs. They can also update and delete their own blog posts. All comments are displayed with the comment author as well as the date that they commented.",
+    "image": "./images/techBlogHome.png",
+    "link": "https://levismvctechblog.herokuapp.com/",
+    "githubLink": "https://github.com/levickane/mvctechblog"
+  },
+  {
+    "id": "eleven",
+    "title": "Budget Tracker",
+    "technologies": "MongoDB/Mongoose, Express, Node, IndexedDB, ServiceWorker, WebManifest, Bootstrap, ChartJs, JavaScript",
+    "description": "This application was built to track all of your budgeting needs over time and displayed on ChartJs. Even while offline, your input will get cached on the browser and then later, when back online, your data will be added to the database!",
+    "image": "./images/budgettracker.png",
+    "link": "https://radiant-oasis-26121.herokuapp.com/",
+    "githubLink": "https://github.com/levickane/budgetingpwa"
+  },
+  {
+    "id": "two",
+    "title": "Expense Tracker 5000",
+    "technologies": "Fetch API, JS, JQuery, Materialize, LocalStorage",
+    "description": "This application was built to track the user's expenses and incomes to display the users running total. All data is stored via local storage.",
+    "image": "./images/expenseTrackerLarge.png",
+    "link": "https://levickane.github.io/expensetracker/",
+    "githubLink": "https://github.com/levickane/expensetracker"
   },
   {
     "id": "five",
@@ -69,14 +96,5 @@
     "image": "./images/hotrestaurant.png",
     "link": "https://young-forest-04638.herokuapp.com/",
     "githubLink": "https://github.com/levickane/hotrestaurant"
-  },
-  {
-    "id": "nine",
-    "title": "Tech Blog",
-    "technologies": "Node, Express, Handlebars, MySql/Sequelize, JawsDB, Bootstrap, JQuery, JavaScript",
-    "description": "This application was built to display all blog posts from all users. A user can login can add blogs as well as comment on other blogs. They can also update and delete their own blog posts. All comments are displayed with the comment author as well as the date that they commented.",
-    "image": "./images/techBlogHome.png",
-    "link": "https://levismvctechblog.herokuapp.com/",
-    "githubLink": "https://github.com/levickane/mvctechblog"
   }
 ]
