@@ -30,6 +30,7 @@ class PortfolioContainer extends Component {
   render() {
     return (
       <div>
+        {/* <Hero /> */}
         <NavBar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
