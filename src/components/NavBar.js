@@ -33,7 +33,7 @@ function NavTabs(props) {
         <div className="container-fluid">
           <a
             href="#bio"
-            onClick={() => props.handlePageChange('Bio')}
+            onClick={() => props.handlePageChange('/')}
             className="nav-link text-dark"
           >
             Levi Kane | Full Stack Developer

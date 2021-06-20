@@ -4,10 +4,11 @@ import Bio from '../pages/Bio';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Footer from './Footer';
+import Home from '../pages/Home';
 
 class PortfolioContainer extends Component {
   state = {
-    currentPage: 'Bio'
+    currentPage: '/'
   };
 
   handlePageChange = (page) => {
@@ -16,6 +17,8 @@ class PortfolioContainer extends Component {
 
   renderPage = () => {
     switch (this.state.currentPage) {
+      case '/':
+        return <Home />;
       case 'Bio':
         return <Bio />;
       case 'Projects':
