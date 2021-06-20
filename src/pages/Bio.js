@@ -1,5 +1,4 @@
 import React from 'react';
-import Logos from '../logoInfo.json';
 
 function Bio() {
   return (
@@ -58,14 +57,6 @@ function Bio() {
         page you'll find all of my contact info as well as my resume which can
         be viewed in a downloadable PDF
       </p>
-      <div className="row justify-content-center g-6">
-        <h3 style={{ textDecoration: 'underline' }}>Profiency In:</h3>
-        {Logos.map((logo) => (
-          <div className="card col-lg-3 col-5 p-2 mx-2 my-1" key={logo.id}>
-            <img src={logo.image} alt={logo.id} key={logo.id} />
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
