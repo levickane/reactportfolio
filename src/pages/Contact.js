@@ -3,7 +3,7 @@ import contactInfo from '../contactInfo.json';
 
 function Contact() {
   return (
-    <div className=" card bg-light">
+    <div className="card bg-light">
       <h1 className="card-header pt-3">Contact Info</h1>
       <div className="card-body">
         <ul className="list-unstyled">
