@@ -2,7 +2,7 @@ import React from 'react';
 
 function Bio() {
   return (
-    <div className="row bg-light">
+    <div className="container row gx-0 bg-light p-2">
       <h1 className="my-2">Levi Kane</h1>
       <p className="col-lg-9 col-md-6">
         My name is Levi Kane and I'm former World Class Athlete, turned Fitness
@@ -20,11 +20,11 @@ function Bio() {
         my business flourished!
       </p>
       <img
-        className="col-lg-3 col-md-6 my-2 my-auto"
+        className="col-lg-3 col-md-6 my-2 p-3 my-auto"
         src="./images/Levi-Kane-Headshot.jpg"
         alt="levi kane headshot"
       />
-      <p>
+      <p className="">
         But then sadly, due to Covid-19, my business was brought to a screeching
         hault. And that's when I thought,{' '}
         <em>"Why don't I learn how to write software??"</em> My favorite clients

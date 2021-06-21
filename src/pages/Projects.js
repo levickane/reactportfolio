@@ -4,7 +4,7 @@ import projectData from '../projectData.json';
 
 function Projects() {
   return (
-    <div className="container row justify-content-center">
+    <div className="container row gx-0 justify-content-center">
       <h1 className="my-2 bg-light p-3 border border-dark">My projects</h1>
       {projectData.map((project) => (
         <ProjectCard project={project} key={project.id} />
