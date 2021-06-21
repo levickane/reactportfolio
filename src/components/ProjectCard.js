@@ -6,7 +6,7 @@ function ProjectCard() {
     <>
       {projectData.map((project) => (
         <div
-          className="card my-2 mx-2 border border-dark col-lg-5 col-md-5"
+          className="card my-2 mx-2 border border-dark col-md-5"
           key={project.id}
         >
           <h1 className="card-header">{project.title}</h1>

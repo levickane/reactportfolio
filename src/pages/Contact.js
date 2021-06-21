@@ -8,34 +8,42 @@ function Contact() {
       <div className="card-body">
         <ul className="list-unstyled">
           <li>
-            <i class="bi bi-envelope-fill"> </i>
-            <a href="mailto:oneleggedlevi09@gmail.com">
-              oneleggedlevi09@gmail.com
-            </a>
+            <h5>
+              <i class="bi bi-envelope-fill"> </i>
+              <a href="mailto:oneleggedlevi09@gmail.com">
+                oneleggedlevi09@gmail.com
+              </a>
+            </h5>
           </li>
           <li>
-            <i class="bi bi-telephone-fill"> </i>
-            <a href={contactInfo.phone}>773-558-3112</a>
+            <h5>
+              <i class="bi bi-telephone-fill"> </i>
+              <a href={contactInfo.phone}>773-558-3112</a>
+            </h5>
           </li>
           <li>
-            <i class="bi bi-github"> </i>
-            <a
-              href={contactInfo.githubProfile}
-              rel="noreferrer"
-              target="_blank"
-            >
-              github.com/levickane
-            </a>
+            <h5>
+              <i class="bi bi-github"> </i>
+              <a
+                href={contactInfo.githubProfile}
+                rel="noreferrer"
+                target="_blank"
+              >
+                github.com/levickane
+              </a>
+            </h5>
           </li>
           <li>
-            <i class="bi bi-linkedin"> </i>
-            <a href={contactInfo.linkedIn} rel="noreferrer" target="_blank">
-              LinkedIn
-            </a>
+            <h5>
+              <i class="bi bi-linkedin"> </i>
+              <a href={contactInfo.linkedIn} rel="noreferrer" target="_blank">
+                LinkedIn
+              </a>
+            </h5>
           </li>
         </ul>
-        <h2 className="sectionTitle">Resume</h2>
-        <div className="sectionContainer">
+        <h2>Resume</h2>
+        <h5>
           <a
             href="./downloadable/RESUME.pdf"
             download="Levi_Kane_FullStack_Resume"
@@ -44,7 +52,10 @@ function Contact() {
             Click here for a downloadable pdf of my resume
             <i className="material-icons">description</i>
           </a>
-        </div>
+        </h5>
+      </div>
+      <div className="card-footer d-flex justify-content-center">
+        <h3>Response times range from 0-30 minutes</h3>
       </div>
     </div>
   );
