@@ -13,7 +13,7 @@
   },
   {
     "id": "jquery-logo",
-    "image": "./logos/jquery-logo.png"
+    "image": "./logos/jquery-logo-SVG.png"
   },
   {
     "id": "nodejs-logo",
@@ -21,15 +21,15 @@
   },
   {
     "id": "python-logo",
-    "image": "./logos/python-logo.jpeg"
+    "image": "./logos/python-logo-svg.png"
   },
   {
     "id": "SQL-logo",
-    "image": "./logos/SQL-logo.png"
+    "image": "./logos/sql-logo-svg.png"
   },
   {
     "id": "git-logo",
-    "image": "./logos/git-logo.png"
+    "image": "./logos/git-logo-svg.png"
   },
   {
     "id": "restful-api-logo",
@@ -41,11 +41,11 @@
   },
   {
     "id": "vue-logo",
-    "image": "./logos/vue-logo.png"
+    "image": "./logos/Vue-Logo-SVG.png"
   },
   {
     "id": "vuetify-logo",
-    "image": "./logos/vuetify-logo.png"
+    "image": "./logos/Vuetify-Logo-SVG.png"
   },
   {
     "id": "mongo-logo",

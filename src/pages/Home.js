@@ -32,7 +32,7 @@ function Home() {
           <div
             onMouseOver={MouseOver}
             onMouseOut={MouseOut}
-            className="card p-0 rounded-0 shadow-sm col-1 mx-2 my-1"
+            className="card p-0 rounded-0 border-0  bg-transparent col-1 mx-2 my-1"
             key={logo.id}
           >
             <img src={logo.image} alt={logo.id} key={logo.id} />
