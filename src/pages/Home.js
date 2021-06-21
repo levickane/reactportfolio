@@ -35,7 +35,7 @@ function Home() {
           />{' '}
         </div>
       </div>
-      <div className="row justify-content-center mt-2 mx-3">
+      <div className="row justify-content-center mt-3 mx-3 bg-light">
         {Logos.map((logo) => (
           <div
             onMouseOver={MouseOver}

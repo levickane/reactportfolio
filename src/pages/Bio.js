@@ -2,7 +2,7 @@ import React from 'react';
 
 function Bio() {
   return (
-    <div className="row">
+    <div className="row bg-light">
       <h1 className="my-2">Levi Kane</h1>
       <p className="col-lg-9 col-md-6">
         My name is Levi Kane and I'm former World Class Athlete, turned Fitness

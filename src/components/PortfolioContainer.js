@@ -32,7 +32,7 @@ class PortfolioContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ backgroundImage: 'url(./images/newback.jpeg)' }}>
         {/* <Hero /> */}
         <NavBar
           currentPage={this.state.currentPage}
