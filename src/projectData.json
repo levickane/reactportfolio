@@ -8,6 +8,15 @@
     "link": "https://www.newgameplus.live/"
   },
   {
+    "id": "twelve",
+    "title": "Vue Website",
+    "technologies": "Vue/Vuex/Vuetify, Firebase, Postmark",
+    "description": "This was a dynamic website made with the Vue framework. I built this off of the original wireframes for the NewGame+ website in order to get familiar with how VueJs worked. Login to find a downloadable version of my Resume and Cover Letter",
+    "image": "./images/levisVueSite.png",
+    "link": "https://levickane.github.io/levis_vue_website/",
+    "githubLink": "https://github.com/levickane/levis_vue_website"
+  },
+  {
     "id": "four",
     "title": "Chicago Boating App",
     "technologies": "Node, Express, MongoDB, Bootstrap, Axios, React-Bootstrap, JavaScript",
