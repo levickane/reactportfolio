@@ -22,11 +22,11 @@ function Home() {
         <div className="card-body row justify-content-center">
           <p className="col-md-9">
             A Northwestern University Full Stack Bootcamp graduate. Dedicated
-            and driven individual with experience producing high quality full
-            stack code. Quick to learn, hungry to learn more, full of passion
-            and dedication, Levi will stop at nothing to deliver his absolute
-            best. With creativity and ingenuity to fuel his fire, grit and
-            hustle are two things that he cannot live without.
+            and driven individual with experience producing high quality,
+            scalable, testable, full stack code. Quick to learn, hungry to learn
+            more, full of passion and dedication, Levi will stop at nothing to
+            deliver his absolute best. With creativity and ingenuity to fuel his
+            fire, grit and hustle are two things that he cannot live without.
           </p>
           <img
             className=" my-auto col-md-3 col-sm-6"
@@ -41,8 +41,7 @@ function Home() {
             onMouseOver={MouseOver}
             onMouseOut={MouseOut}
             className="card p-0 rounded-0 border-0  bg-transparent col-1 mx-2 my-1"
-            key={logo.id}
-          >
+            key={logo.id}>
             <img src={logo.image} alt={logo.id} key={logo.id} />
           </div>
         ))}

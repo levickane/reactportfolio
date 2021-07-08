@@ -23,8 +23,7 @@ function ProjectCard(props) {
             textDecoration: 'none',
             color: 'black',
             fontSize: '1.5em'
-          }}
-        >
+          }}>
           <strong>Toggle Description...</strong>
         </a>
         <p className="collapse" id={project.id}>
@@ -36,8 +35,7 @@ function ProjectCard(props) {
           href={project.link}
           rel="noreferrer"
           target="_blank"
-          className="btn btn-primary mx-1 my-1"
-        >
+          className="btn btn-primary mx-1 my-1">
           Live Link
         </a>
         {project.githubLink ? (
@@ -45,8 +43,7 @@ function ProjectCard(props) {
             href={project.githubLink}
             rel="noreferrer"
             target="_blank"
-            className="btn btn-primary mx-1 my-1"
-          >
+            className="btn btn-primary mx-1 my-1">
             My Github Repo
           </a>
         ) : (

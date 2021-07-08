@@ -37,8 +37,7 @@ function Bio() {
         <a
           href="https://www.newgameplus.live/"
           rel="noreferrer"
-          target="_blank"
-        >
+          target="_blank">
           {' '}
           www.newgameplus.live{' '}
         </a>
@@ -52,10 +51,11 @@ function Bio() {
       </p>
       <p>
         So that's how I found myself here! A student at Northwestern
-        University's Coding Bootcamp. The web-applications displayed on my
-        projects page are all custom built by me, from scratch. On the contact
-        page you'll find all of my contact info as well as my resume which can
-        be viewed in a downloadable PDF
+        University's Coding Bootcamp. With the exception of the PechaKucha
+        project, all of the web-applications displayed on my projects page are
+        custom built by me, from scratch. On the contact page you'll find all of
+        my contact info as well as my resume which can be viewed in a
+        downloadable PDF
       </p>
     </div>
   );
