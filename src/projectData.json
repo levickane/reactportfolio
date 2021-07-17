@@ -2,8 +2,8 @@
   {
     "id": "thirteen",
     "title": "PechaKucha",
-    "technologies": "React, React-Bootstrap",
-    "description": "My first job after my coding bootcamp as a Front-End Software Development Engineer. Tasks included: refactoring legacy code for responsiveness, adding conditional rendering with CRUD functionalities for admin users, integrating and implementing additional dynamic functionalities based on user preferences",
+    "technologies": "JavaScript, Axios, Chartjs, React, React-Bootstrap",
+    "description": "My first job after my coding bootcamp as a Front-End Software Development Engineer. Tasks included: implementing new dynamic functional components, refactoring legacy code for responsiveness, implementing conditional rendering with CRUD functionalities for specific users, implementing additional dynamic functionalities based on user feedback",
     "image": "./images/pechakucha.png",
     "link": "https://www.pechakucha.com/"
   },
