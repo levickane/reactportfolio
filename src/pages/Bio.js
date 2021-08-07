@@ -3,7 +3,7 @@ import React from 'react';
 function Bio() {
   return (
     <div className="container row gx-0 bg-light p-2">
-      <h1 className="my-2">Levi Kane</h1>
+      <h1 className="my-2 bg-secondary p-2 rounded text-light">Levi Kane</h1>
       <p className="col-lg-9 col-md-6">
         In 2012 I came accross a message posted on the door of a teacher of mine
         that I had at a community college in Chicago. I'll never forget it for
