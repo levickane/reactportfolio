@@ -5,19 +5,35 @@ function Bio() {
     <div className="container row gx-0 bg-light p-2">
       <h1 className="my-2">Levi Kane</h1>
       <p className="col-lg-9 col-md-6">
-        My name is Levi Kane and I'm former World Class Athlete, turned Fitness
-        Training Coach, turned Full Stack Developer. After losing my leg in a
-        motorcycle accident in 2009, I had finally found my way in my newly
-        amputated life in 2012, when I was introduced to the sport of
-        ParaTriathlon. Here, I would be racing against other athletes with the
-        same level of disability as myself (above-knee amputee). In the year
-        2015 I had hit my personal peak with athletics getting a Gold medal at
-        National championships, Silver medal at World Championships, a Bronze
-        medal at Continental Championships and I became the first single-leg
-        above-knee amputee to ever run a sub 20:00 5k in the entire World. After
-        that, I ran my own fitness training and coaching business for 5 years.
-        Using my education in Kinesiology, paired with my story of inspiration,
-        my business flourished!
+        In 2012 I came accross a message posted on the door of a teacher of mine
+        that I had at a community college in Chicago. I'll never forget it for
+        as long as live. The message has been playing on repeat in my head,
+        NONSTOP, ever since I graduated from UIC in 2015...
+        <br />
+        ***
+        <em>
+          A man was out in the desert when a voice said to him, “Pick up some
+          pebbles and put them in your pocket, and tomorrow you will be both
+          sorry and glad.” The man obeyed. He stooped down and picked up a
+          handful of pebbles and put them in his pocket. The next day he reached
+          into his pocket and found diamonds and rubies and emeralds. And he was
+          both glad and sorry. Glad that he had taken some and sorry that he
+          hadn’t taken more. And so it is with education.
+        </em>
+        ***
+        <br />
+        I'm former World Class Athlete, turned Fitness Training Coach, turned
+        Software Engineer. After losing my leg in a motorcycle accident in 2009,
+        I had finally found my way in my newly amputated life in 2012, when I
+        was introduced to the sport of ParaTriathlon. Here, I would be racing
+        against other athletes with the same level of disability as myself
+        (above-knee amputee). In the year 2015 I had hit my personal peak with
+        athletics getting a Gold medal at National championships, Silver medal
+        at World Championships, a Bronze medal at Continental Championships and
+        I became the first single-leg above-knee amputee to ever run a sub 20:00
+        5k in the entire World. After that, I ran my own fitness training and
+        coaching business for 5 years. Using my education in Kinesiology, paired
+        with my story of inspiration, my business flourished!
       </p>
       <img
         className="col-lg-3 col-md-6 my-2 p-3 my-auto"
@@ -26,36 +42,18 @@ function Bio() {
       />
       <p className="">
         But then sadly, due to Covid-19, my business was brought to a screeching
-        hault. And that's when I thought,{' '}
+        hault. And that's when I thought,
         <em>"Why don't I learn how to write software??"</em> My favorite clients
         were always developers, so asking them for advice on the matter only
-        seemed natural. So after some guidence from seasoned veterans of the
-        industry, I spent my Covid-cation immersing myself in the world of
-        applicaiton development, learning as much as I could and even earning a
-        short term paid-internship with company in which I was contracted to
-        build their website using Vue and can be seen at
-        <a
-          href="https://www.newgameplus.live/"
-          rel="noreferrer"
-          target="_blank">
-          {' '}
-          www.newgameplus.live{' '}
-        </a>
-        (with the mutual agreement to not continue employment after the contract
-        was over). When my internship came to a close, the CTO told me that I
-        had the same skill set as someone coming out of a bootcamp, but still
-        recommended that I join one to not just sharpen my skillset, but also
-        for both building the network of peers and for the professional coaching
-        on how to acutally land a job within the incredibly competetive Tech
-        industry.
+        seemed natural. After just 1 month of fully immersing myself in
+        something that I originally knew nothing about, I came to realize that I
+        had finally found the pebbles that I've been longing for.
       </p>
       <p>
-        So that's how I found myself here! A student at Northwestern
-        University's Coding Bootcamp. With the exception of the PechaKucha
-        project, all of the web-applications displayed on my projects page are
-        custom built by me, from scratch. On the contact page you'll find all of
-        my contact info as well as my resume which can be viewed in a
-        downloadable PDF
+        With the exception of the PechaKucha project, all of the
+        web-applications displayed on my projects page are custom built by me,
+        from scratch. On the contact page you'll find all of my contact info as
+        well as my resume which can be viewed in a downloadable PDF
       </p>
     </div>
   );

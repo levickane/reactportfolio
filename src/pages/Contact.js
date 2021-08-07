@@ -9,7 +9,7 @@ function Contact() {
         <ul className="list-unstyled">
           <li>
             <h5>
-              <i class="bi bi-envelope-fill"> </i>
+              <i className="bi bi-envelope-fill"> </i>
               <a href="mailto:oneleggedlevi09@gmail.com">
                 oneleggedlevi09@gmail.com
               </a>
@@ -17,25 +17,24 @@ function Contact() {
           </li>
           <li>
             <h5>
-              <i class="bi bi-telephone-fill"> </i>
+              <i className="bi bi-telephone-fill"> </i>
               <a href={contactInfo.phone}>773-558-3112</a>
             </h5>
           </li>
           <li>
             <h5>
-              <i class="bi bi-github"> </i>
+              <i className="bi bi-github"> </i>
               <a
                 href={contactInfo.githubProfile}
                 rel="noreferrer"
-                target="_blank"
-              >
+                target="_blank">
                 github.com/levickane
               </a>
             </h5>
           </li>
           <li>
             <h5>
-              <i class="bi bi-linkedin"> </i>
+              <i className="bi bi-linkedin"> </i>
               <a href={contactInfo.linkedIn} rel="noreferrer" target="_blank">
                 LinkedIn
               </a>
@@ -47,8 +46,7 @@ function Contact() {
           <a
             href="./downloadable/RESUME.pdf"
             download="Levi_Kane_FullStack_Resume"
-            target="_blank"
-          >
+            target="_blank">
             Click here for a downloadable pdf of my resume
             <i className="material-icons">description</i>
           </a>
