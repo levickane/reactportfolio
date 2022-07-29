@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function NavTabs(props) {
   return (
@@ -12,31 +12,27 @@ function NavTabs(props) {
           backgroundRepeat: 'no-repeat',
           fontFamily: 'sans-serif'
         }}
-        className="d-flex justify-content-center pb-5 row-fluid"
-      >
+        className="d-flex justify-content-center pb-5 row-fluid">
         <h1
           className="my-5 py-5  text-center rounded col-10"
           style={{
             backgroundColor: 'rgba(245, 245, 245, 0.4)',
             fontFamily: "'Sedgwick Ave', cursive",
             lineHeight: '150%'
-          }}
-        >
+          }}>
           <strong>Making Normal Software Abnormally Awesome</strong>
         </h1>
       </div>
 
       <nav
         className="navbar navbar-expand-lg navbar-light mt-n4"
-        style={{ backgroundColor: 'rgb(202, 183, 118)' }}
-      >
+        style={{ backgroundColor: 'rgb(202, 183, 118)' }}>
         <div className="container-fluid">
           <div>
             <a
               href="#home"
               onClick={() => props.handlePageChange('/')}
-              className="nav-link text-dark"
-            >
+              className="nav-link text-dark">
               Levi Kane | Full Stack Developer
             </a>
           </div>
@@ -48,8 +44,7 @@ function NavTabs(props) {
               data-bs-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
 
@@ -60,7 +55,8 @@ function NavTabs(props) {
                     href="#bio"
                     onClick={() => props.handlePageChange('Bio')}
                     className="nav-link text-dark"
-                  >
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01">
                     Bio
                   </a>
                 </li>
@@ -69,7 +65,8 @@ function NavTabs(props) {
                     href="#projects"
                     onClick={() => props.handlePageChange('Projects')}
                     className="nav-link text-dark"
-                  >
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01">
                     Projects
                   </a>
                 </li>
@@ -79,7 +76,8 @@ function NavTabs(props) {
                     href="#contact"
                     onClick={() => props.handlePageChange('Contact')}
                     className="nav-link text-dark"
-                  >
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01">
                     Contact
                   </a>
                 </li>
@@ -89,7 +87,7 @@ function NavTabs(props) {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
-export default NavTabs;
+export default NavTabs

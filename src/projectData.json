@@ -1,5 +1,30 @@
 [
   {
+    "id": "sixteen",
+    "title": "Real Estate ROI",
+    "technologies": "Javascript, React, Bootstrap",
+    "description": "A fun personal project that I made to help myself and other real estate investors to easily calculate and see the whether or not their potential investment would be profitable. Other features include an AirBnb calculator and a savings calculator.",
+    "image": "./images/real_estate_roi.png",
+    "link": "https://levickane.github.io/real_estate_roi/",
+    "githubLink": "https://levickane.github.io/real_estate_roi/"
+  },
+  {
+    "id": "fifteen",
+    "title": "TAG (The Aspen Group)",
+    "technologies": "TypeScript, React, GraphQL, Material UI, RJSF, Storybook, Unit Testing, Cypress Testing",
+    "description": "My third job after my coding bootcamp as a full-time Software Engineer. Tasks included: producing global reusable high quality, dynamic, scalable, testable components - anything from text and input fields to dynamic react-json-schema-forms - to be used across multiple micro-frontends through a module federation in efforts to rebuild the entire web platform.",
+    "image": "./images/TAG_Aspen_Logo.jpeg",
+    "link": "https://www.teamtag.com/"
+  },
+  {
+    "id": "fourteen",
+    "title": "Oak Street Health",
+    "technologies": "TypeScript, RxJS, GRPC, MongoDB, Cypress Testing, Vue, Vuetify",
+    "description": "My second job after my coding bootcamp as a full-time Software Engineer. Tasks included: working in 2 week sprints producing high quality, dynamic, scalable, testable code, using an agile methodology workflow to build a customized patient care system",
+    "image": "./images/Oak_Street_Health_Stacked_Logo.jpeg",
+    "link": "https://www.oakstreethealth.com/"
+  },
+  {
     "id": "thirteen",
     "title": "PechaKucha",
     "technologies": "JavaScript, Axios, Chartjs, React, React-Bootstrap",
