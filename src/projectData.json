@@ -5,7 +5,7 @@
     "technologies": "Javascript, React, Bootstrap",
     "description": "A fun personal project that I made to help myself and other real estate investors to easily calculate and see the whether or not their potential investment would be profitable. Other features include an AirBnb calculator and a savings calculator.",
     "image": "./images/real_estate_roi.png",
-    "link": "https://levickane.github.io/real_estate_roi/",
+    "link": "https://re83.herokuapp.com",
     "githubLink": "https://github.com/levickane/real_estate_roi"
   },
   {
