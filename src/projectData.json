@@ -1,5 +1,32 @@
 [
   {
+    "id": "nineteen",
+    "title": "Express-Med1",
+    "technologies": "React, JavaScript, MUI, Node, Express, Atlas MongoDB, Python",
+    "description": "Designed a responsive ordering platform for medical supplies, improving operational efficiency for supply chain management.",
+    "image": "./images/expressmed1.png",
+    "link": "https://expressmed1.com",
+    "githubLink": "https://github.com/levickane/express-med1"
+  },
+  {
+    "id": "eighteen",
+    "title": "Amend HP",
+    "technologies": "React, JavaScript, MUI, Node, Express, Atlas MongoDB, Chart JS, Python",
+    "description": "Created a community-focused website for engaging with local officials and revitalizing local businesses through strategic revenue planning.",
+    "image": "./images/amendHP.png",
+    "link": "https://amendhp.com",
+    "githubLink": "https://github.com/levickane/amend-hp"
+  },
+  {
+    "id": "seventeen",
+    "title": "Levi's ROI App",
+    "technologies": "React, JavaScript, MUI, Node, Express, Axios, Atlas MongoDB",
+    "description": "Version 2 of the original App! Now complete with a backend and user profile",
+    "image": "./images/levisapp.png",
+    "link": "https://levisapp.com",
+    "githubLink": "https://github.com/levickane/levis_roi_app"
+  },
+  {
     "id": "sixteen",
     "title": "Real Estate ROI",
     "technologies": "Javascript, React, Bootstrap",
@@ -12,7 +39,7 @@
     "id": "fifteen",
     "title": "TAG (The Aspen Group)",
     "technologies": "TypeScript, React, GraphQL, Material UI, RJSF, Storybook, Unit Testing, Cypress Testing",
-    "description": "My third job after my coding bootcamp as a full-time Software Engineer. Tasks included: producing global reusable high quality, dynamic, scalable, testable components - anything from text and input fields to dynamic react-json-schema-forms - to be used across multiple micro-frontends through a module federation in efforts to rebuild the entire web platform.",
+    "description": "My third job after my coding bootcamp as a full-time Software Engineer. Tasks included: Delivered reusable, scalable components using React, TypeScript, and Material-UI integrated with Storybook. Implemented multi-step forms with RJSF and ensured seamless integration with Contentful CMS. All content to be dynamically edited through Contentful",
     "image": "./images/TAG_Aspen_Logo.jpeg",
     "link": "https://www.teamtag.com/"
   },
